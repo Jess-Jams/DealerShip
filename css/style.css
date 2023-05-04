@@ -16,23 +16,49 @@ header {
 }
 
 .nav li,
-.nav li:hover{
+.nav li:hover {
   text-transform: uppercase;
   text-decoration: none;
   color: white;
   cursor: pointer;
 }
 
-.imgSlide{
+.imgSlide {
   width: 100vw !important;
   height: 50vh;
 }
-.container{
+
+.container {
   padding: 0;
   background-color: gainsboro;
 }
-.section h1{
+
+.section h1 {
   text-transform: uppercase;
   font-size: 2em;
   padding: 10px;
+}
+footer{
+  font-size: 1.2rem;
+  color: red
+}
+span,a{
+  text-transform: uppercase;
+}
+a{
+  color: black;
+  font-weight: bolder;
+
+}
+.carPrice{
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
+.carPrice span{
+  color: rgb(165, 165, 165);
+  text-decoration: line-through;
+  font-size: smaller;
+  font-style: italic;
 }
