@@ -38,26 +38,32 @@ header {
   font-size: 2em;
   padding: 10px;
 }
-footer{
+
+footer {
   font-size: 1.2rem;
-  color: red
+  color: rgb(199, 0, 0)
 }
-span,a{
+
+span,
+a {
   text-transform: uppercase;
 }
-a{
+
+a {
   color: black;
   font-weight: bolder;
 
 }
-.carPrice{
+
+.carPrice {
   font-size: 1.3rem;
   text-align: center;
   font-weight: bold;
-  color: black;
+  color: rgb(0, 104, 22);
 }
-.carPrice span{
-  color: rgb(165, 165, 165);
+
+.carPrice span {
+  color:rgb(0, 0, 0);
   text-decoration: line-through;
   font-size: smaller;
   font-style: italic;
